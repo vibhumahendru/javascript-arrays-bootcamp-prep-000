@@ -50,7 +50,7 @@ function destructivelyRemoveElementFromEndOfArray(remove){
 
 var remove2 = []
 function removeElementFromEndOfArray (remove2){
-  var remove3 = remove2.slice(1, remove2.length - 1)
+  var remove3 = remove2.slice(0, remove2.length - 1)
   return remove3
 }
 
